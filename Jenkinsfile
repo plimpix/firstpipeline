@@ -1,9 +1,9 @@
 pipeline {
-    agent { /usr/local/bin/docker { image 'ruby' } }
+    agent { none }
     stages {
         stage('build') {
             steps {
-                sh 'ruby --version'
+                sh 'ls -l
             }
         }
     }
